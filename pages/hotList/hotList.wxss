@@ -1,0 +1,69 @@
+/* pages/hotList/hotList.wxss */
+.navscroll {
+  display: flex;
+  white-space: nowrap;
+  height: 60rpx;
+}
+
+.navscroll .navItem {
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  box-sizing: border-box;
+}
+
+.navscroll .navContent {
+  height: 60rpx;
+  box-sizing: border-box;
+}
+
+.navItem .active {
+  border-bottom: 1rpx solid #3ea6c5;
+}
+.listScroll {
+  margin: 40rpx;
+  margin-left: 30rpx;
+  /* height: calc(100vh - 380rpx) */
+}
+
+.scrollItem {
+  position: relative;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+
+.scrollItem image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+}
+
+.musicInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+
+.musicInfo text {
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 24rpx;
+  max-width: 450rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scrollItem .iconfont {
+  position: absolute;
+  right: 60rpx;
+  width: 80rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: right;
+}
+.listScroll {
+  margin-top: 20rpx;
+  height: calc(100vh - 70rpx);
+}
