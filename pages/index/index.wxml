@@ -42,7 +42,7 @@
   <!-- 排行榜 -->
   <view class="topList">
     <NavHeader title="排行榜" nav="热门歌曲榜"></NavHeader>
-    <swiper class="topListSwiper" circular next-margin="50rpx" bindchange="change">
+    <swiper class="topListSwiper" circular next-margin="20rpx" bindchange="change">
       <swiper-item wx:for="{{hotGroupList}}" wx:key="name">
         <view class="swiperItem">
           <view class="title">{{item.name}}</view>

@@ -71,12 +71,13 @@
 }
 
 .topListSwiper {
-    height: 666rpx;
+    height: 670rpx;
 }
 
 .swiperItem {
-    width: 96%;
-    background: #faf9f9;
+    height: 670rpx;
+    width: 97%;
+    background: #eaf5f7;
 }
 
 .swiperItem .title {
@@ -93,6 +94,7 @@
     width: 100rpx;
     height: 100rpx;
     border-radius: 6rpx;
+    margin-left: 10px;
 }
 
 .musicItem .count {

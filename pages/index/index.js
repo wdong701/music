@@ -34,7 +34,7 @@ Page({
         this.gethotList(this.data.navId);
     },
     change(current){
-      let now=current.detail.current;
+      let now = this.data.hotGroupList[current.detail.current].id;
       this.setData({
         navId: now
     })
